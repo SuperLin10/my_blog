@@ -14,4 +14,4 @@ INSTALL
 
 LICENSE
 -----
-MIT © [kdylan](https://github.com/k-dylan)
+MIT © [SuperLin10](https://github.com/SuperLin10)
