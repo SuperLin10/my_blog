@@ -1,0 +1,45 @@
+{
+  "name": "my_blog",
+  "version": "1.0.0",
+  "description": "use koa2 build a blog system",
+  "main": "app.js",
+  "directories": {
+    "doc": "docs",
+    "test": "test"
+  },
+  "scripts": {
+    "test": "./node_modules/mocha/bin/mocha",
+    "dev": "set NODE_ENV=production && nodemon bin/www.js",
+    "start": "set NODE_ENV=production && pm2 start bin/www.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SuperLin10/my_blog.git"
+  },
+  "keywords": [
+    "koa2",
+    "blog"
+  ],
+  "author": "SuperLin10",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SuperLin10/my_blog/issues"
+  },
+  "homepage": "https://github.com/SuperLin10/my_blog#readme",
+  "dependencies": {
+    "koa": "^2.5.1",
+    "koa-bodyparser": "^2.0.1",
+    "koa-json": "^1.1.1",
+    "koa-logger": "^1.3.0",
+    "koa-onerror": "^1.2.1",
+    "koa-router": "^7.0.0",
+    "koa-static": "^2.0.0",
+    "koa-views": "^5.0.1",
+    "log4js": "^2.5.3"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^3.1.2",
+    "nodemon": "^1.8.1"
+  }
+}
